@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="description" content="홈페이지 제작">
+ <meta name="title" content="큐브 리뉴얼">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+ <!-- og -->
+ <meta property="og:title" content="SUZY PROTFOLIO">
+ <meta property="og:url" content="https://opl103.github.io/portfolio/">
+ <meta property="og:image" content="https://raw.githubusercontent.com/opl103/portfolio/main/openGraph.png">
+ <meta property="og:description" content="김수지 포트폴리오 입니다.">
+ <meta property="og:type" content="website">
+
+ <title>portfolio Cube</title>
+
+ <!-- favicon -->
+ <link rel="shortcut icon" href="http://www.cubeent.co.kr/files/attach/xeicon/favicon.ico" /><link rel="apple-touch-icon" href="http://www.cubeent.co.kr/files/attach/xeicon/mobicon.png" />
+
+ <!-- nomalize css -->
+ <link rel="stylesheet" href="../common/normalize.css">
+
+ <!-- icon fonts -->
+ <link rel="stylesheet" href="fontello-c3781b25/css/fontello.css">
+
+
+ <!-- web fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- font css : font-family: 'Montserrat', 'Noto Sans KR', 's-core_dream1', 's-core_dream2', 's-core_dream3', 's-core_dream4', 's-core_dream5', 's-core_dream6', 's-core_dream7', 's-core_dream8', 's-core_dream9', sans-serif; -->
+
+<!-- swiper js -->
+<link rel="stylesheet" href="../common/swiper-bundle.min.css">
+
+<!-- style css -->
+<link rel="stylesheet" href="../common/font.css">
+<link rel="stylesheet" href="stlye.css">
+
+ </head>
+
+<body>
+   <div class="container">
+
+      <!-- header -->
+      <header>
+         <div class="wrapper">
+      <h1><a href="/">cube</a></h1>
+
+      <!-- navigation -->
+      <nav>
+         <ul id="gnb">
+            <li><a href="/">Banner</a></li>
+            <li><a href="#">artists</a></li>
+            <li><a href="#">multimedia</a></li>
+            <li><a href="#">audition</a></li>
+            <li><a href="#">contact</a></li>
+         </ul>
+      </nav>
+
+         <!-- info -->
+         <div id="info" class="info">
+            <ul>
+               <li><a href="#">로그인</a></li>
+               <li><a href="#">회원가입</a></li>
+               <li><a href="#">cubeglobal</a></li>
+            </ul>
+         </div>
+      </div>
+
+      </header>
+
+      <!-- icon -->
+      <ul id="sns">
+         <li><a href="https://www.youtube.com/user/theunitedcube" target="_blank"><i class="icon-youtube-play"></i></a></li>
+         <li><a href="https://www.facebook.com/UNITEDCUBE" target="_blank"><i class="icon-facebook"></i></a></li>
+         <li><a href="https://twitter.com/cubeunited" target="_blank"><i class="icon-twitter"></i></a></li>
+         <li><a href="https://weibo.com/cubeent" target="_blank"><i class="icon-weibo"></i></a></li>
+      </ul>
+
+      <!-- up button -->
+      <div id="up_btn"><a href="#"><i class="icon-angle-up"></i></a>
+      </div>
+
+      <div id="catalogue_btn" herf="#"><img src="images/catalogue.png" alt="icon"></div>
+
+
+      <!-- main -->
+      <main>
+      <!-- Swiper -->
+      <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+         <!-- img -->
+        <div class="swiper-slide slider1">slide1</div>
+        <div class="swiper-slide slider2">slide2</div>
+        <div class="swiper-slide slider3">slide3</div>
+        <div class="swiper-slide slider4">slide4</div>
+        <div class="swiper-slide slider5">slide5</div>
+      </div>
+      <!-- 화살표 -->
+      <div class="swiper-button-next"><i class="icon-right-open"></i></div>
+      <div class="swiper-button-prev"><i class=" icon-left-open"></i></div>
+      <!-- 페이지네이션 -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".swiper-button-next",
+              prevEl: ".swiper-button-prev",
+            },
+            loop: true,
+            autoplay: { delay: 4000 },
+          });
+        </script>
+   
+    <!-- release -->
+    <div id="release" class="release_c">
+      <section class="box1">
+         <div class="release_txt">
+            <div class="txt_title">release</div>
+            <div class="txt_description">같은 꽃이 그들은 장식하는 그것은 이것이다. 동산에는 그들은 우리의 하는 발휘하기 피고 눈이 피가 청춘에서만 것이다.</div>
+         </div>
+
+         <div class="view_all_button">view all release</div>
+      </section>
+
+      <section class="box2">
+         <div class="contents">
+            <a href="#" class="con1">
+               <img src="images/release1.png" alt="pentagon">
+            <div class="txt_warp">
+               <p class="title">pentagon</p>
+               <hr width="170px" color="#fff">
+               <p class="sub_title">Do or Not</p>
+            </div>
+            <!-- 화살표 -->
+            <div class="overlay">
+            <div class="read_more_button">
+               <div class="read_more_b_ani">read more</div>
+               <div class="plus">+</div>
+            </div>
+            </div>
+         </a>
+         </div>
+      </section>
+
+      <section class="box3">
+         <div class="contents">
+            <a href="#" class="con2">
+               <img src="images/release2.png" alt="Lightsum">
+            <div class="txt_warp">
+               <p class="title">Lightsum</p>
+               <hr width="170px" color="#fff">
+               <p class="sub_title">Vanilla</p>
+            </div>
+            <!-- 화살표 -->
+            <div class="overlay"></div>
+            <div class="read_more_button">
+               <div class="read_more_b_ani">read more</div>
+               <div class="plus">+</div>
+            </div>
+         </a>
+         </div>
+      </section>
+
+      <section class="box4">
+         <div class="contents">
+            <a href="#" class="con3">
+               <img src="images/release3.png" alt="JeonSoyeon">
+            <div class="txt_warp">
+               <p class="title">JeonSoyeon</p>
+               <hr width="170px" color="#fff">
+               <p class="sub_title">Windy</p>
+            </div>
+            <div class="overlay"></div>
+            <div class="read_more_button">
+               <div class="read_more_b_ani">read more</div>
+               <div class="plus">+</div>
+            </div>
+         </a>
+         </div>
+      </section>
+
+      <section class="box5">
+         <div class="contents">
+            <a href="#" class="con4">
+               <img src="images/release4.png" alt="JeonSoyeon">
+            <div class="txt_warp">
+               <p class="title">Sorn</p>
+               <hr width="170px" color="#fff">
+               <p class="sub_title">Run</p>
+            </div>
+            <div class="overlay"></div>
+            <div class="read_more_button">
+               <div class="read_more_b_ani">read more</div>
+               <div class="plus">+</div>
+            </div>
+         </a>
+         </div>
+      </section>
+   </div>
+
+   <script>
+      const secs =  document.querySelectorAll('section');
+      secs.forEach( function(item, idx) {
+        item.addEventListener('mouseenter', function(){
+          this.classList.add('mHover');
+        });
+        item.addEventListener('mouseleave', function(){
+          this.classList.remove('mHover');
+        });
+      });
+    
+    </script>
+
+      <!-- Notice -->
+      <section>
+         <div class="Notice_txt">
+            <div class="txt_title">Notice</div>
+            <div class="txt_description">같은 꽃이 그들은 장식하는 그것은 이것이다.</div>
+         </div>
+      </section>
+      <section>
+         <div class="notice_box box_top">
+            <div class="n_day">06월 14, 2021</div>
+            <div class="n_txt_title">택배 파업 배송 지연 안내</div>
+            <div class="n_writer">CUBEE<br>1308 Read</div>
+         </div>
+      </section>
+      <section>
+         <div class="notice_box box_m">
+            <div class="n_day">3월 30, 2021</div>
+            <div class="n_txt_title">배송비 가격 인상 안내</div>
+            <div class="n_writer">CUBEE<br>3857 Read</div>
+         </div>
+      </section>
+      <section>
+         <div class="notice_box">
+            <div class="n_day">1월 25, 2021</div>
+            <div class="n_txt_title">설 연휴 CS 고객센터 및 물류...</div>
+            <div class="n_writer">CUBEE<br>12467 Read</div>
+         </div>
+      </section>
+
+      <!-- Musicvideo -->
+      <section>
+         <div class="Musicvideo_txt">
+            <div class="txt_title">Music video</div>
+            <div class="txt_description">같은 꽃이 그들은 장식하는 그것은 이것이다.</div>
+         </div>
+
+         <div class="mv_wrap">
+         <div class="music_video">
+            <a href="https://www.youtube.com/watch?v=MqzX9JAZ08U" target="_blank">
+               <img src="images/mmv1.png" alt="thumbnail">
+            </a>
+         </div>
+         <div class="music_video">
+            <a href="https://www.youtube.com/watch?v=MqzX9JAZ08U" target="_blank">
+               <img src="images/mmv2.png" alt="thumbnail">
+            </a>
+         </div>
+         <div class="music_video mv_last">
+            <a href="https://www.youtube.com/watch?v=MqzX9JAZ08U" target="_blank">
+               <img src="images/mmv3.png" alt="thumbnail">
+            </a>
+         </div>
+       </div>
+      </section>
+     
+      <!-- Artist -->
+      <section class="artist">
+      <div class="Artist_text">
+         <div class="txt_title">Artist</div>
+      </div>
+
+      <div class="artist_in_txt">
+         <div class="in_txt_title">Jo kwon</div>
+         <hr align="left" color="#2366aa" width="20px" hight="2px">
+         <div class="in_txt_description">조 권</div>
+         <div class="in_txt_description2">&#60;SOLO&#62;<br>
+            2018.06 디지털싱글 &#60;ONE&#62; 발매<br>
+            2018.01 디지털싱글 &#60;새벽&#62; 발매<br>
+            </div>
+      </div>
+
+      <div class="artist_in_txt">
+         <div class="in_txt_title at2">Trouble Maker</div>
+         <hr align="left" color="#2366aa" width="20px" hight="2px">
+         <div class="in_txt_description">트러블메이커</div>
+         <div class="in_txt_description2">국내<br>
+            2011.12.01 미니앨범 <br>&#60;TROUBLE MAKER&#62; 발매<br>
+            2013.10.28 미니앨범 &#60;Chemistry&#62; 발매</div>
+      </div>
+
+      <div class="artist_in_txt">
+         <div class="in_txt_title">BTOB</div>
+         <hr align="left" color="#2366aa" width="20px" hight="2px">
+         <div class="in_txt_description">비투비</div>
+         <div class="in_txt_description2">국내<br>
+            2021.02 Peniel Digital single<br> 
+            [Valentine]<br>
+            2020.11 BTOB 4U 1st Mini Album<br> 
+            [INSIDE]</div>
+      </div>
+
+      <div class="artist_in_txt">
+         <div class="in_txt_title">CLC</div>
+         <hr align="left" color="#2366aa" width="20px" hight="2px">
+         <div class="in_txt_description">씨엘씨</div>
+         <div class="in_txt_description2">국내<br>
+            2020.09 Single [HELOCOPTER]<br>
+            2019.09 Digital Single [Devil]<br>
+            2019.05 Degital Single [ME(美)]<br>
+            2019.01 8th Mini Album [No.1]<br>
+            2018.06 Digital Single [ONE]</div>
+      </div>
+      </section>
+
+      <hr>
+
+      <!-- Md/ Album -->
+      <section class="md">
+
+         <div class="md_text">
+            <div class="txt_title">md / dvd&album</div>
+            <div class="txt_description">같은 꽃이 그들은 장식하는 그것은 이것이다.</div>
+         </div>
+         <div>
+            <div class="md_in_txt">
+               <div class="md_img md1"></div>
+               <hr>
+               <div class="in_txt_title">[pentagon]</div>
+               <hr align="left" color="#2366aa" width="20px" hight="2px">
+               <div class="in_txt_description">공식 응원봉<br><br>30,000 KRW</div>
+               <div class="in_txt_description2"></div>
+            </div>
+         </div>
+
+         <div>
+            <div class="md_in_txt">
+               <div class="md_img md2"></div>
+               <hr>
+               <div class="in_txt_title">[btob]</div>
+               <hr align="left" color="#2366aa" width="20px" height="2px">
+               <div class="in_txt_description">공식 응원봉<br><br>30,000 KRW</div>
+               <div class="in_txt_description2"></div>
+            </div>
+         </div>
+
+         <div>
+            <div class="md_in_txt">
+               <div class="md_img md3"></div>
+               <hr>
+               <div class="in_txt_title">[jeon soyeon]</div>
+               <hr align="left" color="#2366aa" width="20px" hight="2px">
+               <div class="in_txt_description">윈디 글라스 & 오프너 세트<br><br>18,000 KRW</div>
+               <div class="in_txt_description2">전자레인지 및 식기세척기 사용이 불가합니다.<br>급격한 온도 변화시 파손의원인이 됩니다.<br>부드러운 소재의 수세미로세척하시기 바랍니다.<br>본 상품 소재 특성상 미세한스크래치 및 기포는<br>불량이 아닙니다.</div>
+            </div>
+         </div>
+
+         <div>
+            <div class="md_in_txt">
+               <div class="md_img md4"></div>
+               <hr>
+               <div class="in_txt_title">[lightsum]</div>
+               <hr align="left" color="#2366aa" width="20px" hight="2px">
+               <div class="in_txt_description">공식 슬로건<br><br>15,000 KRW</div>
+               <div class="in_txt_description2"></div>
+            </div>
+         </div>
+
+      </section>
+      </main>
+
+      <!-- footer -->
+      <footer>
+         <div class="main_footer">
+            <div class="ft_logo"></div>
+         <div class="fcon_wrap">
+            <div class="ft_cont ft_nav">
+               <div class="in_txt_title">navigation</div>
+               <div class="ft_txt_desc">홈<br>아티스트<br>멀티미디어<br>오디션<br>연락처</div>
+            </div>
+            <div class="ft_cont">
+               <div class="in_txt_title">infomation</div>
+               <div class="ft_txt_desc">7F, 83, ACHASAN-RO,<br>SEONGDONG-GU, SEOUL,<br>04793 KOREA
+                  <br>TEL : 92-2-3445-1045</div>
+            </div>
+            <div class="ft_cont ft_foll">
+               <div class="in_txt_title">follow us</div>
+               <div class="ft_txt_desc">
+                  <ul id="ft_sns">
+                     <li><a href="https://www.youtube.com/user/theunitedcube" target="_blank"><i class="icon-youtube-play"></i>youtube</a></li>
+                     <li><a href="https://www.facebook.com/UNITEDCUBE" target="_blank"><i class="icon-facebook"></i>facebook</a></li>
+                     <li><a href="https://twitter.com/cubeunited" target="_blank"><i class="icon-twitter"></i>instagram</a></li>
+                     <li><a href="https://weibo.com/cubeent" target="_blank"><i class="icon-weibo"></i>weibo</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="ft_cont ft_link">
+               <div class="in_txt_title">links</div>
+               <div class="link_box">cube family site<i class="icon-down-open"></i></div>
+            </div>
+         </div>
+      </div>
+      </footer>
+      <div class="bg_footer">
+         <span>copyright (c) cube entertainment inc, all right reserved.</span>
+      </div>
+
+   <!-- 스크롤 버튼 스크립트 -->
+   <script>
+   const up_btn = document.querySelector('#up_btn');
+   const header = document.querySelector('header').clientHeight;
+
+    addEventListener('scroll', () => {
+      let user_scroll = window.pageYOffset;
+      let objHeight = window.innerHeight - header;
+      if (user_scroll >= objHeight) {// 배너 보임
+        up_btn.classList.add('sliding');
+      } else if (user_scroll < objHeight) {// 배너 숨김
+        up_btn.classList.remove('sliding');
+      }
+    });
+    </script>
+
+ <script>
+    const smartObj = ['iphone', 'ipad', 'android'];
+  for(let idx in smartObj) {
+
+    if(navigator.userAgent.toLowerCase().match(new RegExp(smartObj[idx]))) {
+      alert('모바일 페이지로 이동합니다.');
+      window.location = 'mobile/index.html';
+    }
+  }
+ </script>
+
+</body>
+</html>

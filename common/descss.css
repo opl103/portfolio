@@ -177,7 +177,11 @@ h3 {
    color: #2366aa; 
    border: 1px solid #2366aa;
 }
-.cbcontainer .box2 {background-color: #2366aa; color: #F7F7F7;}
+.cbcontainer .box2 {
+   background-color: #2366aa; 
+   color: #F7F7F7;
+   border: 1px solid #2366aa;
+}
 
 .colortxt {
    margin-top: 4.5rem;

@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+/* S-Core-Dream */
+
+@font-face {
+   font-family: 's-core_dream1';
+   src: url('fonts/scdream1.woff2') format('woff2'),
+        url('fonts/scdream1.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream2';
+   src: url('fonts/scdream2.woff2') format('woff2'),
+        url('fonts/scdream2.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream3';
+   src: url('fonts/scdream3.woff2') format('woff2'),
+        url('fonts/scdream3.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream4';
+   src: url('fonts/scdream4.woff2') format('woff2'),
+        url('fonts/scdream4.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream5';
+   src: url('fonts/scdream5.woff2') format('woff2'),
+        url('fonts/scdream5.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream6';
+   src: url('fonts/scdream6.woff2') format('woff2'),
+        url('fonts/scdream6.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream7';
+   src: url('fonts/scdream7.woff2') format('woff2'),
+        url('fonts/scdream7.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream8';
+   src: url('fonts/scdream8.woff2') format('woff2'),
+        url('fonts/scdream8.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 's-core_dream9';
+   src: url('fonts/scdream9.woff2') format('woff2'),
+        url('fonts/scdream9.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Thin';
+   src: url(fonts/SpoqaHanSansNeo-Thin.woff2) format('woff2'),
+   url(fonts/SpoqaHanSansNeo-Thin.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Light';
+   src: url(fonts/SpoqaHanSansNeo-Light.woff2) format('woff2'),
+   url(fonts/SpoqaHanSansNeo-Light.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Medium';
+   src: url(fonts/SpoqaHanSansNeo-Medium.woff2) format('woff2'),
+   url(fonts/SpoqaHanSansNeo-Medium.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Regular';
+   src: url(fonts/SpoqaHanSansNeo-Regular.woff2) format('woff2'),
+   url(fonts/SpoqaHanSansNeo-Regular.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'SpoqaHanSansNeo-Bold';
+   src: url(fonts/SpoqaHanSansNeo-Bold.woff2) format('woff2'),
+   url(fonts/SpoqaHanSansNeo-Bold.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+
+/*  layout  */
+div.mWrap{position: relative; width: 100%; min-height: 100%;
+	text-align: center; display: block;}
+div.mContents{position:absolute; top: 0; left: 0; min-height: 100%;
+	text-align: left; margin: 0 75px 0 200px; padding: 0; background: 
+	#fff; overflow: hidden; display: block;}
+ 
+/*  skipMenu  */
+div.skipMenu{display: none; width: 1px; height: 1px; line-height: 1px;}
+
+
+#menu{width: 1400px; height: 132px; z-index: 9999; left: 600px; position: fixed;}
+#menu ul li a{text-decoration: none; color: #ffffff; float: left; display: block; padding: 0 20px 0 20px;
+	 font-size: 20px; font-weight: bold; cursor: pointer;}
+#menu ul li a p{padding-top: 20px;}
+#menu ul li a:hover{text-decoration: underline;}
+#menu ul li{list-style: none;}
+
+
+
+
+/* */
+.mContents{overflow: hidden; width: 100%; min-width: 1445px; margin: 0px !important}
+.mContents .parallax{position: relative; width: 1280px; height: 4800px;
+	margin: 0 auto;}
+#mSection01, #mSection02, #mSection03, #mSection04{overflow: hidden; position: absolute; 
+	left: 50%; width: 1645px; height: 1200px; margin-left: -952px;}
+#mSection01 > *, #mSection02 > *, #mSection03 > *, #mSection04 > * {position: absolute;}
+
+#mSection01{top: 0px; background: url(../img/back_01.jpg) repeat-x; width: 2000px; height: 1200px;}
+#mSection02{top: 1200px; background: url(../img/back_02.jpg) repeat-x; width: 2000px; height: 1200px; z-index: 1000}
+#mSection03{top: 2400px; background: url(../img/back_03.jpg) repeat-x; width: 2000px; height: 1200px;  z-index: 2000}
+#mSection04{top: 3600px; background: url(../img/back_04.jpg) repeat-x; width: 2000px; height: 1200px;  z-index: 3000}
+/* section01 */
+#mSection01 .arrow{position: absolute; left: 300px; top: 10px; width: 49px;
+	height: 56px; z-index: 500}
+#mSection01 .tit{left: 291px; top: 200px; z-index: 500}
+#mSection01 .txt{left: 297px; top: 390px; z-index: 400}
+#mSection01 .obj01{left: 197px; top: 103px; width: 450px; height: 750px;
+	background: url(../img/basketball.png) no-repeat left top; z-index: 300;}
+	
+#mSection01 .obj02{left: 29px; top: 63px; width: 488px; height: 138px;
+	background: url(../img/cloud-lg1.png) no-repeat left top; z-index: 300; opacity:0.4;}
+	
+#mSection01 .obj03{left: 909px; top: 352px; width: 270px; height: 193px;
+	background: url(../img/msection01_tit.png) no-repeat left top; z-index: 300;
+	border-top: 3px solid #ffffff; border-bottom: 3px solid #ffffff;}
+	
+#mSection01 .obj04{left: 1121px; top: 578px; width: 488px; height: 138px;
+	background: url(../img/cloud-lg1.png) no-repeat left top; z-index: 300;}
+	
+#mSection01 .obj05{left: 297px; top: 51px; width: 311px; height: 105px;
+	background: url(../img/cloud-lg2.png) no-repeat left top; z-index: 300;}
+	
+#mSection01 .obj06{left: 838px; top: 289px; width: 311px; height: 105px;
+	background: url(../img/cloud-lg2.png) no-repeat left top; z-index: 300; opacity: 0.6;}
+	
+#mSection01 .obj07{left: 600px; top: 855px; width: 311px; height: 105px;
+	background: url(../img/cloud-lg2.png) no-repeat left top; z-index: 300;}
+	
+#mSection01 .obj08{left: 0px; top: 0px; width: 1433px; height: 954px;
+	background: url(../images/index/mSection01_obj08.png) no-repeat left top; z-index: 300;}
+
+/* section02 */
+#mSection02 .arrow{position: absolute; left: 270px; top: 10px; width: 49px;
+	height: 56px; z-index: 1500}
+#mSection02 .tit{left: 291px; top: 257px; z-index: 1500}
+#mSection02 .txt{left: 297px; top: 464px; z-index: 1450}
+	
+#mSection02 .obj08{left: 250px; top: 250px; width: 570px; height: 680px;
+	background: url(../img/football.png) no-repeat left top; z-index:1100;}
+	
+#mSection02 .obj09{left: 909px; top: 452px; width: 305px; height: 178px;
+	background: url(../img/msection03_tit.png) no-repeat left top; z-index:1100;
+	border-top: 3px solid #ffffff; border-bottom: 3px solid #ffffff;}
+	
+#mSection02 .obj10{left: 1121px; top: 578px; width: 488px; height: 138px;
+	background: url(../img/cloud-lg1.png) no-repeat left top; z-index:1400}
+	
+#mSection02 .obj04{left: 505px; top: 624px; width: 536px; height: 390px;
+	background: url(../images/index/mSection02_obj05.png) no-repeat left top; z-index:1300}
+	
+#mSection02 .obj05{left: 610px; top: 777px; width: 593px; height: 425px;
+	background: url(../images/index/mSection02_obj04.png) no-repeat left top; z-index:1350}
+	
+#mSection02 .obj01{left: 780px; top: -60px; width: 258px; height: 254px;
+	background: url(../images/index/mSection02_obj01.png) no-repeat left top; z-index:1100}
+	
+#mSection02 .obj01{left: 780px; top: -60px; width: 258px; height: 254px;
+	background: url(../images/index/mSection02_obj01.png) no-repeat left top; z-index:1100}
+	
+#mSection02 .obj01{left: 780px; top: -60px; width: 258px; height: 254px;
+	background: url(../images/index/mSection02_obj01.png) no-repeat left top; z-index:1100}
+
+/* section03 */
+#mSection03 .arrow{position: absolute; left: 380px; top: 10px; width: 49px;
+	height: 56px; z-index: 2500}
+#mSection03 .tit{left: 634px; top: 158px; z-index: 2500}
+#mSection03 .txt{left: 634px; top: 328px; z-index: 2400}
+	
+#mSection03 .obj15{left: 958px; top: 275px; width: 700px; height: 650px;
+	background: url(../img/american_football.png) no-repeat left top; z-index:2300}
+#mSection03 .obj16{left: 500px; top: 452px; width: 319px; height: 119px;
+	background: url(../img/msection04_tit.png) no-repeat left top; z-index: 2400;
+	border-top: 3px solid #fff; border-bottom: 3px solid #fff;}
+	
+#mSection03_arrow{margin-top: 5px;}
+
+/* section04 */
+#mSection04 .arrow{position: absolute; left: 270px; top: 10px; width: 49px;
+	height: 56px; z-index: 1500}
+#mSection04 .tit{left: 291px; top: 257px; z-index: 1500}
+#mSection04 .txt{left: 297px; top: 464px; z-index: 1450}
+	
+#mSection04 .obj21{left: 280px; top: 250px; width: 570px; height: 680px;
+	background: url(../img/running.png) no-repeat left top; z-index:1100;}
+	
+#mSection04 .obj22{left: 909px; top: 352px; width: 313px; height: 169px;
+	background: url(../img/msection02_tit.png) no-repeat left top; z-index:1100;
+	border-top: 3px solid #ffffff; border-bottom: 3px solid #ffffff;}
+	
+#mSection04 .obj23{left: 1121px; top: 578px; width: 488px; height: 138px;
+	background: url(../img/cloud-lg1.png) no-repeat left top; z-index:1400}
+	
+#mSection04 .obj24{left: 505px; top: 624px; width: 536px; height: 390px;
+	background: url(../images/index/mSection02_obj05.png) no-repeat left top; z-index:1300}
+	
+#mSection04 .obj25{left: 610px; top: 777px; width: 593px; height: 425px;
+	background: url(../images/index/mSection02_obj04.png) no-repeat left top; z-index:1350}
+	
+#mSection04 .obj26{left: 780px; top: -60px; width: 258px; height: 254px;
+	background: url(../images/index/mSection02_obj01.png) no-repeat left top; z-index:1100}
+
+.footer{color: #fff; top: 520px; left: 840px; font-size: 0.8em; width: 600px; margin: 0 auto;}
